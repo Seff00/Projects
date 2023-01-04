@@ -114,12 +114,6 @@ class gBoss(Character):
 # print(me.name)
 # me.dealdmg()
 
-
 # bozz = Boss()
-# print(bozz.str)
-
+# print(bozz.name)
 # bozz.dealdmg()
-# bozz.dblhit()
-# bozz.dblhit()
-# bozz.dblhit()
-# bozz.dblhit()
