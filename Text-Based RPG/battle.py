@@ -3,7 +3,7 @@ import random as r
 
 ## test
 # p = Warrior()
-# p.name = "Seth"
+# p.name = "player 1"
 ## test
 
 battle_options = ["help","attack","special","heal","run","status"]
