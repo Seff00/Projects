@@ -1,6 +1,6 @@
 # Text-based RPG
 
-This is my first project that I completed in NUS (during the semester break of my second year).
+This is my first coding project that I completed in NUS (during the semester break of my second year).
 
 This program is a straightforward text-based role-playing game (RPG). It starts off by presenting a scenario to the user in the terminal. At various intervals, the user is also prompted to make a decision. I've listed the general steps I took to create the program, along with some additional challenges and features (some of which I have implemented). These are presented in story.py.
 
