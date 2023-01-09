@@ -22,7 +22,7 @@ def exp_pdf(lam,x):
 y_values = np.array([exp_pdf(1/4,x) for x in x_values])
 
 figure, axis = plt.subplots(figsize=(10,6))
-axis.plot(x_values, y_values, label = 'Actual') # plots values of y_values against x_values for lambda = 1/4
+axis.plot(x_values, y_values, label='Actual') # plots values of y_values against x_values for lambda = 1/4
 axis.set_title("Probability Density Function") # labels title of plot
 axis.set_xlabel('x') # labels X-axis of plot 
 axis.set_ylabel('Probability Density') # labels Y-axis of plot
