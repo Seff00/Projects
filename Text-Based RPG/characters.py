@@ -44,7 +44,7 @@ class Warrior(Character):
 
         else:
             dmg = self.str
-            print("Insufficient MP!" + f" {self.name} used a normal attack.")
+            print("\nInsufficient MP!" + f" {self.name} used a normal attack.")
             print(f"{self.name} dealt {dmg} damage!")
             target.takedmg(dmg)
 
@@ -63,10 +63,10 @@ class Berserker(Character):
         if self.hp > self.maxhp//2:
             self.hp -= (self.maxhp//2)
             self.str += 50
-            print(f"{self.name} used rage. {self.name} hurt himself and increased his strength!")
+            print(f"\n{self.name} used rage. {self.name} hurt himself and increased his strength!")
             print(f"{self.name}'s strength increased by 50.")
 
-        else: print("Your HP is too low! Rage cannot be used.")
+        else: print("\nYour HP is too low! Rage cannot be used.")
 
 ## Mage
 class Mage(Character):
@@ -89,7 +89,7 @@ class Mage(Character):
 
         else:
             dmg = self.str
-            print("Insufficient MP!" + f" {self.name} used a normal attack.")
+            print("\nInsufficient MP!" + f" {self.name} used a normal attack.")
             print(f"{self.name} dealt {dmg} damage!")
             target.takedmg(dmg)
 
