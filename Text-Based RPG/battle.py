@@ -170,7 +170,12 @@ def battle():
                 alive = False
 
     print("\n########## F I G H T ########## O V E R ##########")
-
+    
+    if p.hp <= 0:
+        print(f"\n>> {p.name} lost to the {e.name} during the battle and was never seen again...")
+        print("\n********** Game over. Try again? **********")
+        quit()
+    
     # recovers hp and mp after each battle
     p.hp = p.maxhp
     p.mp = p.maxmp
