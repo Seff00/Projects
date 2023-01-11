@@ -7,8 +7,8 @@ from random import random
 
 1. create characters (or "classes" in RPGs) - characters.py
 -1.1 default character stats
--1.2 "take damage" attribute
--1.3 "deal damage" attribute
+-1.2 "take damage" method
+-1.3 "deal damage" method
 -1.4 create enemy python class 
 
 2. create story - story.py
