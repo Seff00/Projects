@@ -172,7 +172,7 @@ def battle():
     print("\n########## F I G H T ########## O V E R ##########")
     
     if p.hp <= 0:
-        print(f"\n>> {p.name} lost to the {e.name} during the battle and was never seen again...")
+        print(f"\n>> {p.name} fainted during the battle and was never seen again...")
         print("\n********** Game over. Try again? **********")
         quit()
     
