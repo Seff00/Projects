@@ -2,55 +2,6 @@ from battle import *
 from characters import *
 from random import random
 
-'''
-## challenges:
-
-1. create characters (or "classes" in RPGs) - characters.py
--1.1 default character stats
--1.2 "take damage" method
--1.3 "deal damage" method
--1.4 create enemy python class 
-
-2. create story - story.py
--2.1 create a storyline and output with print
--2.2 create at least 3 locations (start -> middle -> end)
--2.3 allow the player to make a choice/decision at each location/stage
-
-3. create initialise function - battle.py
--3.1 ask player to enter a name and choose a character class
--3.2 return the chosen character class
-
-4. create battle function - battle.py
--4.1 determine who goes first 
--4.2 create list of possible inputs (see appendix A)
--4.3 ask player to enter a command/input (see battle.py file)
--4.4 enemy's turn to attack
-
-## additional challenges to implement: 
-1. locations
--1.1 increase player options at each location - use a list/dictionary (see appendix B)
--1.2 include "locations" option (text-based)
--1.3 implement a map function and remove "locations" in options (requires array knowledge)
--1.4 include deadends in the storyline/map [implemented]
-
-2. enemies
--2.1 enemies spawn randomly instead of being predetermined (use random module) [implemented]
--2.2 different types of enemies [implemented]
--2.3 include stronger boss battles with unique abilities
-
-3. player
--3.1 create characters with different stats [implemented]
--3.2 add a unique attack for each character type via "special" attribute  [implemented]
--3.3 critical damage: (deals more damage) for attacks at a X% chance (use random module)
-
-## appendix:
-# A - used in battle.py
-battle_options = ["help","attack","special","heal","run","status"]
-
-# B - not used
-overworld_options = ["help","explore","rest","status","stats","location","quit"]
-'''
-
 print("\n>> Welcome to Venezuela, where heroes and monsters reside.")
 print(">> You are a young, new adventurer ready to set foot into the unknown.\n")
 
